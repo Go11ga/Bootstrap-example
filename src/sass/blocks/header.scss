@@ -1,0 +1,29 @@
+.header {
+    height: 400px;
+
+    background: url(../img/bg.jpg) no-repeat center;
+    background-size: cover;
+
+    color: $white;
+    text-align: center;
+
+    @media (max-width: 1190px) {
+        .display-2 {
+            font-size: 3.5rem;
+        }
+    }
+
+    @media (max-width: 991px) {
+        .display-2 {
+            font-size: 3rem;
+        }
+    }
+
+    @media (max-width: 767px) {
+        height: 300px;
+
+        .display-2 {
+            font-size: 2rem;
+        }
+    }
+}
